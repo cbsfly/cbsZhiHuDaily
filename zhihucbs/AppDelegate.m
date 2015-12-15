@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSLog(@"");
+
+    ZHBaseViewController *vc = [[ZHBaseViewController alloc] init];
+    ZHNavigationViewController *nvc = [[ZHNavigationViewController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nvc;
     return YES;
 }
 

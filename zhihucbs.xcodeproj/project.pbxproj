@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3056F581C20106F00667CFA /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3056F571C20106F00667CFA /* TitleView.m */; };
 		C3D0568F1C1EB7D100E9A382 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D0568E1C1EB7D100E9A382 /* main.m */; };
 		C3D056921C1EB7D100E9A382 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D056911C1EB7D100E9A382 /* AppDelegate.m */; };
 		C3D056951C1EB7D100E9A382 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D056941C1EB7D100E9A382 /* ViewController.m */; };
@@ -14,6 +15,9 @@
 		C3D0569A1C1EB7D100E9A382 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D056991C1EB7D100E9A382 /* Images.xcassets */; };
 		C3D0569D1C1EB7D100E9A382 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D0569B1C1EB7D100E9A382 /* LaunchScreen.xib */; };
 		C3D056A91C1EB7D100E9A382 /* zhihucbsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D056A81C1EB7D100E9A382 /* zhihucbsTests.m */; };
+		C3D056CC1C1EE65600E9A382 /* ZHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D056CB1C1EE65600E9A382 /* ZHNavigationViewController.m */; };
+		C3D056CF1C1EE68600E9A382 /* ZHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D056CE1C1EE68600E9A382 /* ZHBaseViewController.m */; };
+		F709F3FD9B5272896CC7D6F5 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7752042F2DDF12DDE67480DC /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B21081C550C8241AD251A1F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7752042F2DDF12DDE67480DC /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3056F561C20106F00667CFA /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		C3056F571C20106F00667CFA /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
 		C3D056891C1EB7D100E9A382 /* zhihucbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhihucbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D0568D1C1EB7D100E9A382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3D0568E1C1EB7D100E9A382 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,13 @@
 		C3D056A21C1EB7D100E9A382 /* zhihucbsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhihucbsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D056A71C1EB7D100E9A382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3D056A81C1EB7D100E9A382 /* zhihucbsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zhihucbsTests.m; sourceTree = "<group>"; };
+		C3D056BF1C1ED38E00E9A382 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		C3D056C01C1ED48300E9A382 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C3D056CA1C1EE65600E9A382 /* ZHNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNavigationViewController.h; sourceTree = "<group>"; };
+		C3D056CB1C1EE65600E9A382 /* ZHNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNavigationViewController.m; sourceTree = "<group>"; };
+		C3D056CD1C1EE68600E9A382 /* ZHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHBaseViewController.h; sourceTree = "<group>"; };
+		C3D056CE1C1EE68600E9A382 /* ZHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHBaseViewController.m; sourceTree = "<group>"; };
+		E715CE499E36B82C16F1EAE8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F709F3FD9B5272896CC7D6F5 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +76,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CA4F1BDF2789D4249E64D51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7752042F2DDF12DDE67480DC /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		671481046D760231B7610867 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B21081C550C8241AD251A1F /* Pods.debug.xcconfig */,
+				E715CE499E36B82C16F1EAE8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C3D056801C1EB7D100E9A382 = {
 			isa = PBXGroup;
 			children = (
 				C3D0568B1C1EB7D100E9A382 /* zhihucbs */,
 				C3D056A51C1EB7D100E9A382 /* zhihucbsTests */,
 				C3D0568A1C1EB7D100E9A382 /* Products */,
+				671481046D760231B7610867 /* Pods */,
+				1CA4F1BDF2789D4249E64D51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +116,12 @@
 		C3D0568B1C1EB7D100E9A382 /* zhihucbs */ = {
 			isa = PBXGroup;
 			children = (
+				C3D056BB1C1ECBDE00E9A382 /* constant */,
+				C3D056B61C1EBB5600E9A382 /* reuseclass */,
+				C3D056B51C1EBB4800E9A382 /* network */,
+				C3D056B31C1EBB3000E9A382 /* model */,
+				C3D056B21C1EBB2900E9A382 /* view */,
+				C3D056B41C1EBB3900E9A382 /* controller */,
 				C3D056901C1EB7D100E9A382 /* AppDelegate.h */,
 				C3D056911C1EB7D100E9A382 /* AppDelegate.m */,
 				C3D056931C1EB7D100E9A382 /* ViewController.h */,
@@ -89,6 +130,7 @@
 				C3D056991C1EB7D100E9A382 /* Images.xcassets */,
 				C3D0569B1C1EB7D100E9A382 /* LaunchScreen.xib */,
 				C3D0568C1C1EB7D100E9A382 /* Supporting Files */,
+				C3D056C01C1ED48300E9A382 /* PrefixHeader.pch */,
 			);
 			path = zhihucbs;
 			sourceTree = "<group>";
@@ -119,6 +161,55 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C3D056B21C1EBB2900E9A382 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C3056F561C20106F00667CFA /* TitleView.h */,
+				C3056F571C20106F00667CFA /* TitleView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C3D056B31C1EBB3000E9A382 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		C3D056B41C1EBB3900E9A382 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C3D056B51C1EBB4800E9A382 /* network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		C3D056B61C1EBB5600E9A382 /* reuseclass */ = {
+			isa = PBXGroup;
+			children = (
+				C3D056CA1C1EE65600E9A382 /* ZHNavigationViewController.h */,
+				C3D056CB1C1EE65600E9A382 /* ZHNavigationViewController.m */,
+				C3D056CD1C1EE68600E9A382 /* ZHBaseViewController.h */,
+				C3D056CE1C1EE68600E9A382 /* ZHBaseViewController.m */,
+			);
+			path = reuseclass;
+			sourceTree = "<group>";
+		};
+		C3D056BB1C1ECBDE00E9A382 /* constant */ = {
+			isa = PBXGroup;
+			children = (
+				C3D056BF1C1ED38E00E9A382 /* Color.h */,
+			);
+			path = constant;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3D056AC1C1EB7D100E9A382 /* Build configuration list for PBXNativeTarget "zhihucbs" */;
 			buildPhases = (
+				926F26C34846CF789672F61A /* Check Pods Manifest.lock */,
 				C3D056851C1EB7D100E9A382 /* Sources */,
 				C3D056861C1EB7D100E9A382 /* Frameworks */,
 				C3D056871C1EB7D100E9A382 /* Resources */,
+				75C55EC88B202D63F03E6270 /* Embed Pods Frameworks */,
+				37078ADA498DD54679B62F7C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +308,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37078ADA498DD54679B62F7C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75C55EC88B202D63F03E6270 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		926F26C34846CF789672F61A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3D056851C1EB7D100E9A382 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C3D056951C1EB7D100E9A382 /* ViewController.m in Sources */,
+				C3056F581C20106F00667CFA /* TitleView.m in Sources */,
+				C3D056CF1C1EE68600E9A382 /* ZHBaseViewController.m in Sources */,
 				C3D056921C1EB7D100E9A382 /* AppDelegate.m in Sources */,
 				C3D0568F1C1EB7D100E9A382 /* main.m in Sources */,
+				C3D056CC1C1EE65600E9A382 /* ZHNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,8 +492,11 @@
 		};
 		C3D056AD1C1EB7D100E9A382 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B21081C550C8241AD251A1F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/zhihucbs/PrefixHeader.pch";
 				INFOPLIST_FILE = zhihucbs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,8 +505,11 @@
 		};
 		C3D056AE1C1EB7D100E9A382 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E715CE499E36B82C16F1EAE8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/zhihucbs/PrefixHeader.pch";
 				INFOPLIST_FILE = zhihucbs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +569,7 @@
 				C3D056AE1C1EB7D100E9A382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3D056AF1C1EB7D100E9A382 /* Build configuration list for PBXNativeTarget "zhihucbsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +578,7 @@
 				C3D056B11C1EB7D100E9A382 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

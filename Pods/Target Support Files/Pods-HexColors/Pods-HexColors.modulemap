@@ -1,0 +1,6 @@
+framework module HexColors {
+  umbrella header "Pods-HexColors-umbrella.h"
+
+  export *
+  module * { export * }
+}
