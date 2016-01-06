@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ZHLabel.h"
 @interface TitleView : UIView
-@property (nonatomic ,strong) UILabel *titleLb;
+@property (nonatomic, strong) ZHLabel *titleLb;
 @end

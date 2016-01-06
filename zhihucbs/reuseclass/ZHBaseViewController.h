@@ -10,6 +10,6 @@
 #import "TitleView.h"
 
 @interface ZHBaseViewController : UIViewController
-@property (nonatomic ,strong) TitleView *titleView;
-@property (nonatomic ,strong) UIBarButtonItem *leftBtn;
+@property (nonatomic, strong) TitleView *titleView;
+@property (nonatomic, strong) UIBarButtonItem *leftBtn;
 @end

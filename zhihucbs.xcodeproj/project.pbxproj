@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3056F581C20106F00667CFA /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3056F571C20106F00667CFA /* TitleView.m */; };
+		C313AB661C3A321000CD0D4E /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C313AB651C3A321000CD0D4E /* HomePageViewController.m */; };
+		C313AB6A1C3A338300CD0D4E /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C313AB691C3A338300CD0D4E /* TitleView.m */; };
+		C33F66641C3CDCAB00B0A24C /* ZHLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C33F66631C3CDCAB00B0A24C /* ZHLabel.m */; };
 		C3D0568F1C1EB7D100E9A382 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D0568E1C1EB7D100E9A382 /* main.m */; };
 		C3D056921C1EB7D100E9A382 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D056911C1EB7D100E9A382 /* AppDelegate.m */; };
 		C3D056951C1EB7D100E9A382 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D056941C1EB7D100E9A382 /* ViewController.m */; };
@@ -17,6 +19,8 @@
 		C3D056A91C1EB7D100E9A382 /* zhihucbsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D056A81C1EB7D100E9A382 /* zhihucbsTests.m */; };
 		C3D056CC1C1EE65600E9A382 /* ZHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D056CB1C1EE65600E9A382 /* ZHNavigationViewController.m */; };
 		C3D056CF1C1EE68600E9A382 /* ZHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D056CE1C1EE68600E9A382 /* ZHBaseViewController.m */; };
+		C3DD17231C3A33C70055E1D0 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DD17221C3A33C70055E1D0 /* LeftViewController.m */; };
+		C3DD17261C3A34240055E1D0 /* HomePageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DD17251C3A34240055E1D0 /* HomePageTableViewCell.m */; };
 		F709F3FD9B5272896CC7D6F5 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7752042F2DDF12DDE67480DC /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -33,8 +37,13 @@
 /* Begin PBXFileReference section */
 		5B21081C550C8241AD251A1F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7752042F2DDF12DDE67480DC /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3056F561C20106F00667CFA /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
-		C3056F571C20106F00667CFA /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		C313AB641C3A321000CD0D4E /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		C313AB651C3A321000CD0D4E /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		C313AB681C3A338300CD0D4E /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		C313AB691C3A338300CD0D4E /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		C33F66621C3CDCAB00B0A24C /* ZHLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHLabel.h; sourceTree = "<group>"; };
+		C33F66631C3CDCAB00B0A24C /* ZHLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHLabel.m; sourceTree = "<group>"; };
+		C38DF48F1C312C02009824E8 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		C3D056891C1EB7D100E9A382 /* zhihucbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhihucbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D0568D1C1EB7D100E9A382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3D0568E1C1EB7D100E9A382 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -54,6 +63,10 @@
 		C3D056CB1C1EE65600E9A382 /* ZHNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNavigationViewController.m; sourceTree = "<group>"; };
 		C3D056CD1C1EE68600E9A382 /* ZHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHBaseViewController.h; sourceTree = "<group>"; };
 		C3D056CE1C1EE68600E9A382 /* ZHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHBaseViewController.m; sourceTree = "<group>"; };
+		C3DD17211C3A33C70055E1D0 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		C3DD17221C3A33C70055E1D0 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		C3DD17241C3A34240055E1D0 /* HomePageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageTableViewCell.h; sourceTree = "<group>"; };
+		C3DD17251C3A34240055E1D0 /* HomePageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageTableViewCell.m; sourceTree = "<group>"; };
 		E715CE499E36B82C16F1EAE8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +104,35 @@
 				E715CE499E36B82C16F1EAE8 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		C313AB621C3A303E00CD0D4E /* homepage */ = {
+			isa = PBXGroup;
+			children = (
+				C313AB641C3A321000CD0D4E /* HomePageViewController.h */,
+				C313AB651C3A321000CD0D4E /* HomePageViewController.m */,
+			);
+			path = homepage;
+			sourceTree = "<group>";
+		};
+		C313AB631C3A31BC00CD0D4E /* leftview */ = {
+			isa = PBXGroup;
+			children = (
+				C3DD17211C3A33C70055E1D0 /* LeftViewController.h */,
+				C3DD17221C3A33C70055E1D0 /* LeftViewController.m */,
+			);
+			path = leftview;
+			sourceTree = "<group>";
+		};
+		C313AB671C3A335200CD0D4E /* homepage */ = {
+			isa = PBXGroup;
+			children = (
+				C313AB681C3A338300CD0D4E /* TitleView.h */,
+				C313AB691C3A338300CD0D4E /* TitleView.m */,
+				C3DD17241C3A34240055E1D0 /* HomePageTableViewCell.h */,
+				C3DD17251C3A34240055E1D0 /* HomePageTableViewCell.m */,
+			);
+			path = homepage;
 			sourceTree = "<group>";
 		};
 		C3D056801C1EB7D100E9A382 = {
@@ -164,8 +206,7 @@
 		C3D056B21C1EBB2900E9A382 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				C3056F561C20106F00667CFA /* TitleView.h */,
-				C3056F571C20106F00667CFA /* TitleView.m */,
+				C313AB671C3A335200CD0D4E /* homepage */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -180,6 +221,8 @@
 		C3D056B41C1EBB3900E9A382 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				C313AB631C3A31BC00CD0D4E /* leftview */,
+				C313AB621C3A303E00CD0D4E /* homepage */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -198,6 +241,8 @@
 				C3D056CB1C1EE65600E9A382 /* ZHNavigationViewController.m */,
 				C3D056CD1C1EE68600E9A382 /* ZHBaseViewController.h */,
 				C3D056CE1C1EE68600E9A382 /* ZHBaseViewController.m */,
+				C33F66621C3CDCAB00B0A24C /* ZHLabel.h */,
+				C33F66631C3CDCAB00B0A24C /* ZHLabel.m */,
 			);
 			path = reuseclass;
 			sourceTree = "<group>";
@@ -206,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				C3D056BF1C1ED38E00E9A382 /* Color.h */,
+				C38DF48F1C312C02009824E8 /* Constant.h */,
 			);
 			path = constant;
 			sourceTree = "<group>";
@@ -361,12 +407,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C33F66641C3CDCAB00B0A24C /* ZHLabel.m in Sources */,
+				C313AB661C3A321000CD0D4E /* HomePageViewController.m in Sources */,
+				C3DD17231C3A33C70055E1D0 /* LeftViewController.m in Sources */,
 				C3D056951C1EB7D100E9A382 /* ViewController.m in Sources */,
-				C3056F581C20106F00667CFA /* TitleView.m in Sources */,
 				C3D056CF1C1EE68600E9A382 /* ZHBaseViewController.m in Sources */,
+				C313AB6A1C3A338300CD0D4E /* TitleView.m in Sources */,
 				C3D056921C1EB7D100E9A382 /* AppDelegate.m in Sources */,
 				C3D0568F1C1EB7D100E9A382 /* main.m in Sources */,
 				C3D056CC1C1EE65600E9A382 /* ZHNavigationViewController.m in Sources */,
+				C3DD17261C3A34240055E1D0 /* HomePageTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

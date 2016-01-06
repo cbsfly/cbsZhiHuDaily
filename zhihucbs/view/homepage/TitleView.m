@@ -9,7 +9,7 @@
 #import "TitleView.h"
 
 @implementation TitleView
--(instancetype)initWithFrame:(CGRect)frame
+- (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
@@ -26,10 +26,10 @@
     }];
 }
 
-- (UILabel *)titleLb
+- (ZHLabel *)titleLb
 {
     if (_titleLb == nil) {
-        _titleLb = [[UILabel alloc] init];
+        _titleLb = [[ZHLabel alloc] init];
         _titleLb.textColor = [UIColor whiteColor];
     }
     return _titleLb;

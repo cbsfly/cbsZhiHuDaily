@@ -37,11 +37,11 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6.3)
-  - HexColors
+  - HexColors (~> 3.0.0)
   - Mantle (~> 2.0.6)
   - Masonry (~> 0.6.3)
   - MBProgressHUD (~> 0.9.1)
-  - PKRevealController (~> 2.0.6)
+  - PKRevealController (~> 2.0.5)
   - ReactiveCocoa (~> 2.1.8)
   - TPKeyboardAvoiding (~> 1.2.11)
 

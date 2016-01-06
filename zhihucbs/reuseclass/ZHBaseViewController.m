@@ -28,7 +28,12 @@
 #pragma mark - private methods
 - (void)anothertheme
 {
-    NSLog(@"123");
+    if (![self.revealController isPresentationModeActive]){
+        [self.revealController showViewController:self.revealController.leftViewController];
+    }
+    else{
+        [self.revealController resignPresentationModeEntirely:NO animated:YES completion:nil];
+    }
 }
 #pragma mark - getters
 - (UIBarButtonItem *)leftBtn

@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "LeftViewController.h"
+#import "HomePageViewController.h"
 
-@interface AppDelegate ()
-
+@interface AppDelegate ()<PKRevealing>
+@property (nonatomic, strong)PKRevealController *revealController;
 @end
 
 @implementation AppDelegate
@@ -17,13 +19,31 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+
     
     NSLog(@"");
 
-    ZHBaseViewController *vc = [[ZHBaseViewController alloc] init];
-    ZHNavigationViewController *nvc = [[ZHNavigationViewController alloc] initWithRootViewController:vc];
-    self.window.rootViewController = nvc;
+    HomePageViewController *frontViewController = [[HomePageViewController alloc] init];
+    ZHNavigationViewController *frontNavigationController = [[ZHNavigationViewController alloc] initWithRootViewController:frontViewController];
+    self.revealController = [PKRevealController revealControllerWithFrontViewController:frontNavigationController
+                                                                     leftViewController:[self leftViewController]];
+
+    
+    self.revealController.delegate = self;
+    self.revealController.animationDuration = 0.25;
+    self.window.rootViewController = self.revealController;
+    
+    
+    
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (UIViewController *)leftViewController
+{
+    LeftViewController *leftViewController = [[LeftViewController alloc] init];
+    return leftViewController;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
