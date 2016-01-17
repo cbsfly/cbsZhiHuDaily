@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "HomePageNewsDetModel.h"
 @interface HomePageTableViewCell : UITableViewCell
 @property (nonatomic, strong) UIImageView *newsImgView;
 @property (nonatomic, strong) ZHLabel *titleLb;
-@property (nonatomic, strong) ZHLabel *summaryLb;
-@property (nonatomic, strong) UIButton *functionBtn;
 @property (nonatomic, strong) UIView *backView;
+@property (nonatomic, strong) HomePageNewsDetModel *dataModel;
+- (void)setData:(HomePageNewsDetModel *)model;
 @end

@@ -18,8 +18,6 @@
         [self addSubview:self.backView];
         [self.backView addSubview:self.newsImgView];
         [self.backView addSubview:self.titleLb];
-        [self.backView addSubview:self.summaryLb];
-        [self.backView addSubview:self.functionBtn];
         
         [self setUpConstraint];
     }
@@ -34,27 +32,17 @@
     }];
     
     [self.newsImgView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.top.equalTo(self.backView).offset(10);
+        make.top.equalTo(self.backView).offset(10);
+        make.right.equalTo(self.backView).offset(-10);
         make.bottom.equalTo(self.backView).offset(-10);
         make.width.mas_equalTo(self.newsImgView.mas_height);
     }];
     
     [self.titleLb mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.newsImgView);
-        make.left.equalTo(self.newsImgView.mas_right).offset(10);
-        make.right.equalTo(self.functionBtn.mas_left).offset(-10);
-    }];
-    
-    [self.summaryLb mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.titleLb.mas_bottom).offset(10);
-        make.left.right.equalTo(self.titleLb);
-        make.bottom.equalTo(self.backView).offset(-10);
-    }];
-    
-    [self.functionBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.equalTo(self.backView).offset(-10);
-        make.top.equalTo(self.backView).offset(10);
-        make.height.width.mas_equalTo(20);
+        make.top.equalTo(self.newsImgView).offset(10);
+        make.bottom.equalTo(self.newsImgView).offset(-10);
+        make.right.equalTo(self.newsImgView.mas_left).offset(-10);
+        make.left.equalTo(self.backView.mas_left).offset(10);
     }];
 }
 #pragma mark - delegate
@@ -62,7 +50,15 @@
 #pragma mark - event response
 
 #pragma mark - private methods
-
+- (void)setData:(HomePageNewsDetModel *)model
+{
+    self.dataModel = model;
+    if (!self.dataModel) {
+        return;
+    }
+    self.titleLb.text = self.dataModel.titleStr;
+    [self.newsImgView sd_setImageWithURL:[[NSURL alloc] initWithString:[self.dataModel.imagesArray objectAtIndex:0]]];
+}
 #pragma mark - getters
 - (UIImageView *)newsImgView
 {
@@ -80,24 +76,6 @@
         [_titleLb setFont:[UIFont fontWithName:@"Helvetica-Bold" size:17]];
     }
     return _titleLb;
-}
-
-- (ZHLabel *)summaryLb
-{
-    if (_summaryLb == nil) {
-        _summaryLb = [[ZHLabel alloc] init];
-        _summaryLb.font = [UIFont systemFontOfSize:13];
-    }
-    return _summaryLb;
-}
-
-- (UIButton *)functionBtn
-{
-    if (_functionBtn == nil) {
-        _functionBtn = [[UIButton alloc] init];
-        [_functionBtn setImage:[UIImage imageNamed:@"ic_home"] forState:UIControlStateNormal];
-    }
-    return _functionBtn;
 }
 
 - (UIView *)backView

@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		C313AB661C3A321000CD0D4E /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C313AB651C3A321000CD0D4E /* HomePageViewController.m */; };
 		C313AB6A1C3A338300CD0D4E /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C313AB691C3A338300CD0D4E /* TitleView.m */; };
+		C32748A41C48B16600CDD669 /* ZHNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748A31C48B16600CDD669 /* ZHNetWork.m */; };
+		C32748A71C48B85D00CDD669 /* ZHGetData.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748A61C48B85D00CDD669 /* ZHGetData.m */; };
+		C32748AD1C48BB0200CDD669 /* HomePageNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748AC1C48BB0200CDD669 /* HomePageNewsModel.m */; };
+		C32748B41C48DB1400CDD669 /* NSObject+MBPHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748B31C48DB1400CDD669 /* NSObject+MBPHUD.m */; };
+		C32748B71C48E68000CDD669 /* HomePageNewsDetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748B61C48E68000CDD669 /* HomePageNewsDetModel.m */; };
+		C32748BA1C4A5DF400CDD669 /* HeadChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C32748B91C4A5DF400CDD669 /* HeadChangeView.m */; };
 		C33F66641C3CDCAB00B0A24C /* ZHLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C33F66631C3CDCAB00B0A24C /* ZHLabel.m */; };
 		C3D0568F1C1EB7D100E9A382 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D0568E1C1EB7D100E9A382 /* main.m */; };
 		C3D056921C1EB7D100E9A382 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D056911C1EB7D100E9A382 /* AppDelegate.m */; };
@@ -21,7 +27,7 @@
 		C3D056CF1C1EE68600E9A382 /* ZHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D056CE1C1EE68600E9A382 /* ZHBaseViewController.m */; };
 		C3DD17231C3A33C70055E1D0 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DD17221C3A33C70055E1D0 /* LeftViewController.m */; };
 		C3DD17261C3A34240055E1D0 /* HomePageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DD17251C3A34240055E1D0 /* HomePageTableViewCell.m */; };
-		F709F3FD9B5272896CC7D6F5 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7752042F2DDF12DDE67480DC /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F709F3FD9B5272896CC7D6F5 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7752042F2DDF12DDE67480DC /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +47,19 @@
 		C313AB651C3A321000CD0D4E /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		C313AB681C3A338300CD0D4E /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
 		C313AB691C3A338300CD0D4E /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		C32748A21C48B16600CDD669 /* ZHNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNetWork.h; sourceTree = "<group>"; };
+		C32748A31C48B16600CDD669 /* ZHNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNetWork.m; sourceTree = "<group>"; };
+		C32748A51C48B85D00CDD669 /* ZHGetData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHGetData.h; sourceTree = "<group>"; };
+		C32748A61C48B85D00CDD669 /* ZHGetData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHGetData.m; sourceTree = "<group>"; };
+		C32748AA1C48B8AE00CDD669 /* NetWorkAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkAPI.h; sourceTree = "<group>"; };
+		C32748AB1C48BB0200CDD669 /* HomePageNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageNewsModel.h; sourceTree = "<group>"; };
+		C32748AC1C48BB0200CDD669 /* HomePageNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageNewsModel.m; sourceTree = "<group>"; };
+		C32748B21C48DB1400CDD669 /* NSObject+MBPHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MBPHUD.h"; sourceTree = "<group>"; };
+		C32748B31C48DB1400CDD669 /* NSObject+MBPHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MBPHUD.m"; sourceTree = "<group>"; };
+		C32748B51C48E68000CDD669 /* HomePageNewsDetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageNewsDetModel.h; sourceTree = "<group>"; };
+		C32748B61C48E68000CDD669 /* HomePageNewsDetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageNewsDetModel.m; sourceTree = "<group>"; };
+		C32748B81C4A5DF400CDD669 /* HeadChangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadChangeView.h; sourceTree = "<group>"; };
+		C32748B91C4A5DF400CDD669 /* HeadChangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadChangeView.m; sourceTree = "<group>"; };
 		C33F66621C3CDCAB00B0A24C /* ZHLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHLabel.h; sourceTree = "<group>"; };
 		C33F66631C3CDCAB00B0A24C /* ZHLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHLabel.m; sourceTree = "<group>"; };
 		C38DF48F1C312C02009824E8 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
@@ -131,8 +150,19 @@
 				C313AB691C3A338300CD0D4E /* TitleView.m */,
 				C3DD17241C3A34240055E1D0 /* HomePageTableViewCell.h */,
 				C3DD17251C3A34240055E1D0 /* HomePageTableViewCell.m */,
+				C32748B81C4A5DF400CDD669 /* HeadChangeView.h */,
+				C32748B91C4A5DF400CDD669 /* HeadChangeView.m */,
 			);
 			path = homepage;
+			sourceTree = "<group>";
+		};
+		C32748AE1C48D6EC00CDD669 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C32748B21C48DB1400CDD669 /* NSObject+MBPHUD.h */,
+				C32748B31C48DB1400CDD669 /* NSObject+MBPHUD.m */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		C3D056801C1EB7D100E9A382 = {
@@ -158,6 +188,7 @@
 		C3D0568B1C1EB7D100E9A382 /* zhihucbs */ = {
 			isa = PBXGroup;
 			children = (
+				C32748AE1C48D6EC00CDD669 /* extensions */,
 				C3D056BB1C1ECBDE00E9A382 /* constant */,
 				C3D056B61C1EBB5600E9A382 /* reuseclass */,
 				C3D056B51C1EBB4800E9A382 /* network */,
@@ -214,6 +245,10 @@
 		C3D056B31C1EBB3000E9A382 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				C32748AB1C48BB0200CDD669 /* HomePageNewsModel.h */,
+				C32748AC1C48BB0200CDD669 /* HomePageNewsModel.m */,
+				C32748B51C48E68000CDD669 /* HomePageNewsDetModel.h */,
+				C32748B61C48E68000CDD669 /* HomePageNewsDetModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -230,6 +265,11 @@
 		C3D056B51C1EBB4800E9A382 /* network */ = {
 			isa = PBXGroup;
 			children = (
+				C32748A21C48B16600CDD669 /* ZHNetWork.h */,
+				C32748A31C48B16600CDD669 /* ZHNetWork.m */,
+				C32748A51C48B85D00CDD669 /* ZHGetData.h */,
+				C32748A61C48B85D00CDD669 /* ZHGetData.m */,
+				C32748AA1C48B8AE00CDD669 /* NetWorkAPI.h */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -303,7 +343,7 @@
 		C3D056811C1EB7D100E9A382 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "陈秉慎";
 				TargetAttributes = {
 					C3D056881C1EB7D100E9A382 = {
@@ -410,12 +450,18 @@
 				C33F66641C3CDCAB00B0A24C /* ZHLabel.m in Sources */,
 				C313AB661C3A321000CD0D4E /* HomePageViewController.m in Sources */,
 				C3DD17231C3A33C70055E1D0 /* LeftViewController.m in Sources */,
+				C32748A41C48B16600CDD669 /* ZHNetWork.m in Sources */,
 				C3D056951C1EB7D100E9A382 /* ViewController.m in Sources */,
 				C3D056CF1C1EE68600E9A382 /* ZHBaseViewController.m in Sources */,
+				C32748B71C48E68000CDD669 /* HomePageNewsDetModel.m in Sources */,
+				C32748A71C48B85D00CDD669 /* ZHGetData.m in Sources */,
 				C313AB6A1C3A338300CD0D4E /* TitleView.m in Sources */,
 				C3D056921C1EB7D100E9A382 /* AppDelegate.m in Sources */,
 				C3D0568F1C1EB7D100E9A382 /* main.m in Sources */,
+				C32748AD1C48BB0200CDD669 /* HomePageNewsModel.m in Sources */,
+				C32748B41C48DB1400CDD669 /* NSObject+MBPHUD.m in Sources */,
 				C3D056CC1C1EE65600E9A382 /* ZHNavigationViewController.m in Sources */,
+				C32748BA1C4A5DF400CDD669 /* HeadChangeView.m in Sources */,
 				C3DD17261C3A34240055E1D0 /* HomePageTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +525,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -549,6 +596,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/zhihucbs/PrefixHeader.pch";
 				INFOPLIST_FILE = zhihucbs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -562,6 +610,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/zhihucbs/PrefixHeader.pch";
 				INFOPLIST_FILE = zhihucbs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -580,6 +629,7 @@
 				);
 				INFOPLIST_FILE = zhihucbsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zhihucbs.app/zhihucbs";
 			};
@@ -595,6 +645,7 @@
 				);
 				INFOPLIST_FILE = zhihucbsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zhihucbs.app/zhihucbs";
 			};

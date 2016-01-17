@@ -9,6 +9,8 @@
 #ifndef zhihucbs_Constant_h
 #define zhihucbs_Constant_h
 
+#define KeyWindow [UIApplication sharedApplication].keyWindow
+
 #define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
 

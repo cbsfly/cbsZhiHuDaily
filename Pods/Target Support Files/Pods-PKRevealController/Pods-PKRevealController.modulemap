@@ -1,6 +1,0 @@
-framework module PKRevealController {
-  umbrella header "Pods-PKRevealController-umbrella.h"
-
-  export *
-  module * { export * }
-}

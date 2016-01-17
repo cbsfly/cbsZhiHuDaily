@@ -33,6 +33,9 @@ PODS:
   - ReactiveCocoa/Core (2.1.8):
     - ReactiveCocoa/no-arc
   - ReactiveCocoa/no-arc (2.1.8)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
   - TPKeyboardAvoiding (1.2.11)
 
 DEPENDENCIES:
@@ -43,6 +46,7 @@ DEPENDENCIES:
   - MBProgressHUD (~> 0.9.1)
   - PKRevealController (~> 2.0.5)
   - ReactiveCocoa (~> 2.1.8)
+  - SDWebImage (~> 3.7)
   - TPKeyboardAvoiding (~> 1.2.11)
 
 SPEC CHECKSUMS:
@@ -53,6 +57,7 @@ SPEC CHECKSUMS:
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   PKRevealController: ffb45a16f5a5032ad90a3d16e5cbb0d8e035bd58
   ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
   TPKeyboardAvoiding: e5ce146b313de063957bfa75a13f1e9b0ff18ab7
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.39.0
