@@ -85,23 +85,15 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/AFNetworking.framework"
-  install_framework "Pods/HexColors.framework"
-  install_framework "Pods/MBProgressHUD.framework"
   install_framework "Pods/Mantle.framework"
   install_framework "Pods/Masonry.framework"
-  install_framework "Pods/PKRevealController.framework"
   install_framework "Pods/ReactiveCocoa.framework"
   install_framework "Pods/SDWebImage.framework"
-  install_framework "Pods/TPKeyboardAvoiding.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/AFNetworking.framework"
-  install_framework "Pods/HexColors.framework"
-  install_framework "Pods/MBProgressHUD.framework"
   install_framework "Pods/Mantle.framework"
   install_framework "Pods/Masonry.framework"
-  install_framework "Pods/PKRevealController.framework"
   install_framework "Pods/ReactiveCocoa.framework"
   install_framework "Pods/SDWebImage.framework"
-  install_framework "Pods/TPKeyboardAvoiding.framework"
 fi

@@ -20,13 +20,10 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - HexColors (3.0.0)
   - Mantle (2.0.6):
     - Mantle/extobjc (= 2.0.6)
   - Mantle/extobjc (2.0.6)
   - Masonry (0.6.3)
-  - MBProgressHUD (0.9.1)
-  - PKRevealController (2.0.6)
   - ReactiveCocoa (2.1.8):
     - ReactiveCocoa/Core (= 2.1.8)
     - ReactiveCocoa/no-arc (= 2.1.8)
@@ -36,28 +33,19 @@ PODS:
   - SDWebImage (3.7.4):
     - SDWebImage/Core (= 3.7.4)
   - SDWebImage/Core (3.7.4)
-  - TPKeyboardAvoiding (1.2.11)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.6.3)
-  - HexColors (~> 3.0.0)
   - Mantle (~> 2.0.6)
   - Masonry (~> 0.6.3)
-  - MBProgressHUD (~> 0.9.1)
-  - PKRevealController (~> 2.0.5)
   - ReactiveCocoa (~> 2.1.8)
   - SDWebImage (~> 3.7)
-  - TPKeyboardAvoiding (~> 1.2.11)
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  HexColors: 8b83e3fe90c0d466dae7b98c9d22da95799f99cb
   Mantle: 299966b00759634931699f69cb6a30b9239b944d
   Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
-  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
-  PKRevealController: ffb45a16f5a5032ad90a3d16e5cbb0d8e035bd58
   ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
   SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
-  TPKeyboardAvoiding: e5ce146b313de063957bfa75a13f1e9b0ff18ab7
 
 COCOAPODS: 0.39.0

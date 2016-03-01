@@ -9,27 +9,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>HexColors.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>MBProgressHUD.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Masonry.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>PKRevealController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -49,25 +34,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>TPKeyboardAvoiding.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2D3BF91B3DBF0656466FCC2C38A69A30</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>4878C70B21CA37D7CB8A476BF986741B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>609BCC60D8A5BFCFF921000938363438</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>715FA6BBF24AAE03056C6C595BB22E60</key>
+		<key>5511C5F37570C7CE0F0380C6DBFCCD24</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,32 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9BD911E1B62F16304ADB42F7DFAF7C9B</key>
+		<key>925A6B017E8E41A9554BCDC1C8FA511D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>A9A83F63385AA43314397B8DD375464B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>AB2663CA427F92FDD33847E3AA570251</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C408D4E183A88B763793C217A66A1950</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E61CE3B6DFA1FE6B3E296965C76C0E10</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FBF452D9313EF913EA92AD5D72258A8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

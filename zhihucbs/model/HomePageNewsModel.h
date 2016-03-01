@@ -8,8 +8,9 @@
 
 #import <Mantle/Mantle.h>
 #import "HomePageNewsDetModel.h"
-
+#import "HomePageNewsTopModel.h"
 @interface HomePageNewsModel : MTLModel<MTLJSONSerializing>
 @property (nonatomic, strong, readonly) NSString *date;
 @property (nonatomic, strong, readonly) NSMutableArray *storiesArray;
+@property (nonatomic, strong, readonly) NSMutableArray *topNewsArray;
 @end

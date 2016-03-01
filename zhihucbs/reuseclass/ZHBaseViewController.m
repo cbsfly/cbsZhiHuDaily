@@ -26,20 +26,15 @@
 }
 
 #pragma mark - private methods
-- (void)anothertheme
+- (void)anotherTheme
 {
-    if (![self.revealController isPresentationModeActive]){
-        [self.revealController showViewController:self.revealController.leftViewController];
-    }
-    else{
-        [self.revealController resignPresentationModeEntirely:NO animated:YES completion:nil];
-    }
+
 }
 #pragma mark - getters
 - (UIBarButtonItem *)leftBtn
 {
     if (_leftBtn == nil) {
-        _leftBtn = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"pic_menu"] style:UIBarButtonItemStylePlain target:self action:@selector(anothertheme)];
+        _leftBtn = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"Home_Icon"] style:UIBarButtonItemStylePlain target:self action:@selector(anotherTheme)];
     }
     return _leftBtn;
 }
@@ -47,8 +42,7 @@
 - (TitleView *)titleView
 {
     if (_titleView == nil) {
-        _titleView  = [[TitleView alloc] initWithFrame:CGRectMake(10, 10, 120, 20)];
-        _titleView.titleLb.text = @"我的是滴是滴";
+        _titleView  = [[TitleView alloc] initWithFrame:CGRectMake(10, 10, 200, 20)];
     }
     return _titleView;
 }

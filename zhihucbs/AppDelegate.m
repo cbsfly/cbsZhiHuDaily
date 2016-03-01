@@ -7,11 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "LeftViewController.h"
 #import "HomePageViewController.h"
 
-@interface AppDelegate ()<PKRevealing>
-@property (nonatomic, strong)PKRevealController *revealController;
+@interface AppDelegate ()
 @end
 
 @implementation AppDelegate
@@ -24,15 +22,8 @@
     
     NSLog(@"");
 
-    HomePageViewController *frontViewController = [[HomePageViewController alloc] init];
-    ZHNavigationViewController *frontNavigationController = [[ZHNavigationViewController alloc] initWithRootViewController:frontViewController];
-    self.revealController = [PKRevealController revealControllerWithFrontViewController:frontNavigationController
-                                                                     leftViewController:[self leftViewController]];
-
-    
-    self.revealController.delegate = self;
-    self.revealController.animationDuration = 0.25;
-    self.window.rootViewController = self.revealController;
+    HomePageViewController *mainViewController = [[HomePageViewController alloc] init];
+    self.window.rootViewController = mainViewController;
     
     
     
@@ -40,11 +31,6 @@
     return YES;
 }
 
-- (UIViewController *)leftViewController
-{
-    LeftViewController *leftViewController = [[LeftViewController alloc] init];
-    return leftViewController;
-}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

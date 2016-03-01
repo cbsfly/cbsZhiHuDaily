@@ -24,7 +24,7 @@
     self = [super initWithBaseURL:url];
     if (self) {
         // 请求超时设定
-        self.requestSerializer.timeoutInterval = 5;
+        self.requestSerializer.timeoutInterval = 30;
         self.requestSerializer.cachePolicy = NSURLRequestReloadIgnoringLocalCacheData;
         [self.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Accept"];
         [self.requestSerializer setValue:url.absoluteString forHTTPHeaderField:@"Referer"];
@@ -42,19 +42,11 @@
          WithSuccessBlock:(requestSuccessBlock)success
           WithFailurBlock:(requestFailureBlock)failure
 {
-    [self showCustomHud];
     switch (method) {
         case GET:{
             [self GET:path parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
                 success(responseObject);
-                [MBProgressHUD hideHUDForView:KeyWindow animated:YES];
             } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-                if (error.code == NSURLErrorTimedOut) {
-                    [self showHudTipStr:@"服务器请求超时"];
-                } else {
-                    NSString *tipStr = [self tipFromError:error];
-                    [self showHudTipStr:tipStr];
-                }
                 failure(error);
             }];
             break;

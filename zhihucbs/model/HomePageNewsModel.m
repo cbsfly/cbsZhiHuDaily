@@ -12,7 +12,8 @@
 {
     return @{
              @"date": @"date",
-             @"storiesArray": @"stories"
+             @"storiesArray": @"stories",
+             @"topNewsArray": @"top_stories"
              };
 }
 
@@ -26,5 +27,10 @@
         }
         return obArray;
     }];
+}
+
++ (NSValueTransformer *)topNewsArrayJSONTransformer
+{
+    return [MTLJSONAdapter arrayTransformerWithModelClass:[HomePageNewsTopModel class]];
 }
 @end

@@ -6,8 +6,7 @@
 //  Copyright (c) 2016 陈秉慎. All rights reserved.
 //
 
-#import "ZHBaseViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface HomePageViewController : ZHBaseViewController<UITableViewDelegate, UITableViewDataSource>
-@property (nonatomic, strong) UITableView *tableView;
+@interface HomePageViewController : UIViewController
 @end

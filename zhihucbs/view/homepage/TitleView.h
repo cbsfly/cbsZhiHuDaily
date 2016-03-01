@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "ZHLabel.h"
+
+@protocol TitleViewDelegate <NSObject>
+- (void)leftViewAppear;
+@end
+
 @interface TitleView : UIView
+@property (nonatomic, assign) id<TitleViewDelegate> delegate;
 @property (nonatomic, strong) ZHLabel *titleLb;
+@property (nonatomic, strong) UIButton *leftBtn;
+@property (nonatomic, strong) UIActivityIndicatorView *ActView;
 @end

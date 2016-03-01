@@ -9,7 +9,7 @@
 #import <Mantle/Mantle.h>
 
 @interface HomePageNewsDetModel : MTLModel<MTLJSONSerializing>
-@property (nonatomic, strong, readonly) NSArray *imagesArray;
+@property (nonatomic, strong, readonly) NSMutableArray *imagesArray;
 @property (nonatomic, strong, readonly) NSNumber *newsId;
 @property (nonatomic, strong, readonly) NSString *titleStr;
 

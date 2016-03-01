@@ -20,4 +20,8 @@
 #define SVIEWWIDTH self.frame.size.width
 #define SVIEWHEIGHT self.frame.size.height
 
+#define LEFTVIEWWIDTH 180
+#define TITLEVIEWHEIGHT 56
+#define HEADVIEWWIDTH 200
+#define BOTTOMVIEWHEIGHT 40
 #endif

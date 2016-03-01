@@ -12,28 +12,35 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+//DEBUG
+#ifdef DEBUG
+#define debugLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define debugLog(...)
+#define debugMethod()
+#endif
 
 //pods
-#import <HexColors/HexColors.h>
 #import <Masonry/Masonry.h>
-#import "PKRevealController.h"
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <AFNetworking/AFNetworking.h>
-#import "MBProgressHUD.h"
 #import <SDWebImage/UIImageView+WebCache.h>
-
-//personal
+//reuseclass
 #import "ZHNavigationViewController.h"
 #import "ZHBaseViewController.h"
 #import "ZHLabel.h"
 #import "ZHGetData.h"
+#import "OutlineLabel.h"
+#import "DismissAnimation.h"
 
 //constant
 #import "Color.h"
 #import "Constant.h"
 #import <QuartzCore/QuartzCore.h>
+#import "PresentAnimation.h"
 
 //extensions
-#import "NSObject+MBPHUD.h"
+#import "NSObject+Transform.h"
 
 #endif
